@@ -1,0 +1,22 @@
+
+<header>
+	<h2>Tag Editor </h2>
+</header>
+
+<div class="container">
+
+<div class = "tags-container">
+	<div ng-repeat="singletag in tags">
+    	<tag tagitem="singletag" deletetag="deleteTag(item)"></tag>
+	</div>
+
+<div class="tagCreator">
+	<button type="button" class="btn btn-link">
+	<img ng-click ="createTag()" src="plus_PNG107.png" class="rounded" alt="item image">
+	</button>
+</div>	
+</div>
+
+
+
+</div>
