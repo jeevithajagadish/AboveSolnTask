@@ -1,0 +1,11 @@
+<div class="tag-item">	
+	<button type="button" class="btn btn-link" class="delete-button"> 
+		<img src="delete_icon.png" class="delete-icon" >
+	</button>
+
+	<img ng-if="!tagEntered" src="cross-mark.png" class="tag-placeholder" alt="item image">
+	<input ng-show="!tagEntered" type="text" name="" ng-keyup="displayTag($event)" ng-model="tagVal">
+	<span ng-if="tagEntered" ng-bind="tagVal"></span>
+
+	<button ng-if="tagEntered" type="button" class="btn btn-primary" ng-click="editTag()">Edit</button>
+</div>
