@@ -1,0 +1,65 @@
+body {
+	background-color: #d8d5d5;
+}
+
+
+
+div.tagCreator  {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: orange;
+}
+
+h2 {
+
+	background-color: aqua;
+    color: white;
+
+}
+
+img {
+	width: 30px;
+    height: 30px;
+    background-color: #5bd65b;
+
+
+}
+
+div.tag-item{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: aqua;
+	margin: 0px 20px 20px 0px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+div.tags-container
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img.tag-placeholder{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px;
+
+}
+
+img.delete-icon {
+	position: absolute;
+    bottom: 90%;
+    left: 90%;
+    background: transparent;
+}
